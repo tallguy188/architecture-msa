@@ -1,0 +1,12 @@
+spring: 
+  application:
+    name: msa-eureka-zuul-service
+
+server: 
+  port: 8101
+
+eureka:
+  client:
+    fetch-registry: true
+    serviceUrl:
+      defaultZone: http://localhost:8081/eureka/
